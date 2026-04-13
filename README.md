@@ -58,7 +58,7 @@ The redesigned UI is cleaner, more structured, and responsive.
 ## Setup Instructions
 
 1. Clone the repository:
-   git clone <your-repo-link>
+   git clone https://github.com/vidhhya1/workshop-booking-ui.git
 
 2. Navigate to the frontend folder:
    cd frontend
