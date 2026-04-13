@@ -1,0 +1,97 @@
+body {
+  font-family: Arial;
+  background: #f9fafb;
+}
+
+/* layout */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 16px;
+}
+
+/* navbar */
+.navbar {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* card */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* headings */
+.card h2 {
+  margin-bottom: 16px;
+}
+
+/* labels */
+label {
+  font-weight: 500;
+}
+
+/* inputs */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* button */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+/* checkbox */
+.checkbox {
+  margin-bottom: 12px;
+} 
+.checkbox label {
+  display: flex;
+  align-items: center;   /* aligns checkbox + text vertically */
+  gap: 8px;              /* space between checkbox and text */
+  font-weight: 400;
+}
+
+.checkbox input {
+  width: auto;
+  margin: 0;             /* removes weird spacing */
+  transform: translateY(1px); 
+} 
+
+
+/* success message */
+.success {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 12px;
+  }
+}
