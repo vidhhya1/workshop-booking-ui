@@ -57,17 +57,17 @@ The redesigned UI is cleaner, more structured, and responsive.
 
 ## Setup Instructions
 
-1. Clone the repository:
-   git clone https://github.com/vidhhya1/workshop-booking-ui.git
+1. Clone the repository  
+   `git clone https://github.com/vidhhya1/workshop-booking-ui.git`
 
-2. Navigate to the frontend folder:
-   cd frontend
+2. Navigate to the frontend folder  
+   `cd frontend`
 
-3. Install dependencies:
-   npm install
+3. Install dependencies  
+   `npm install`
 
-4. Run the development server:
-   npm start
+4. Run the development server  
+   `npm start`
 
 ---
 
